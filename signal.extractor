@@ -1,0 +1,42 @@
+:signal
+Refined Prompt: Signal Extractor for PKM Integration
+I’m about to give you a raw brain dump — potentially long, rambling, fragmented, and full of context-switching. Your job is to act as a Signal Extractor.
+Your goal:
+? Process raw input into pure signal without losing nuance.
+? Extract all Actions and Ideas.
+? De-duplicate and simplify Actions into top-line items (no subtasks, no next steps).
+? Capture Ideas in as much detail as possible, preserving language and context.
+? Sort both into clean categories based on natural themes or systems context.
+? Flag anything ambiguous or unclear under Needs Review — do not discard it.
+Constraints:
+• Do not lose any content.
+• Do not condense ideas to bullet-point summaries. Retain voice and conceptual shape.
+• Do not expand actions into projects — keep them top-line.
+• Use my GTD-style system language (Inbox, Projects, Incubator, etc.) when fitting.
+• Integrate personal and work content into one flow; no separation unless I request it.
+Output format:
+Copy code
+
+# [Your Input Title or Today's Date]
+
+## Workflow Notes
+[Optional — system or process notes not classified as actions or ideas]
+
+---
+
+## 1. [Category Name]
+### Actions
+- [De-duplicated, top-line action]
+- ...
+### Ideas
+- [Detailed idea or reflection]
+- ...
+
+## 2. [Category Name]
+...
+
+---
+
+## Ambiguous / Needs Review
+- [Anything unclear or needing confirmation]
+Once you finish processing, wait for my review. Do not summarise or prioritise unless I ask.
